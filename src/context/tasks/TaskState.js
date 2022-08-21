@@ -30,6 +30,7 @@ const TaskState = (props) => {
       },
       body: JSON.stringify({title, description, priority, status})
     });
+    console.log(response);
 
     console.log("Adding a new task");
     const task = {
