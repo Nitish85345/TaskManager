@@ -29,5 +29,5 @@ const TaskSchema = new Schema({
     }
 });
 
-const Task = mongoose.model('taskmanager', TaskSchema);
+const Task = mongoose.model('tasks', TaskSchema);
 module.exports = Task;
